@@ -76,9 +76,9 @@ and **`check_blacklist(name, phone_number)`**, this function takes two arguments
 
 The name of script file to solve Case 3 is **`BlackListAPI.py`**.
 When the script starts, it will call `initialize()` function, and then do check the name and phone number.
-We do it using sorted chunk files as we do it for Case 1 and Case 2 to reduce RAM usage (in function `initialize()`), but instead of merge it into single sorted file, 
+We do it using sorted chunk files as we do it for Case 1 and Case 2 to reduce RAM usage (in function `initialize()`), but instead of merging it into single sorted file, 
 we do binary search for each chunk file for the name and phone number (in function `check_blacklist()`).
-Since binary search complexity is O(log *n*) even in worst case scenario, it will reduce the latency for the API call. 
+Because binary search's time complexity is O(lg *n*) even in worst case scenario, it will reduce the latency for the API call. 
 
 
 ### Script To Execute

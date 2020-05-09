@@ -1,6 +1,7 @@
 import bisect
 import memory_chunk_module as mcm
 
+
 def initialize(filename):
     file_content = open(filename, "r")
 

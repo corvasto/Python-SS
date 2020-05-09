@@ -1,6 +1,7 @@
 import math
 import os
 
+
 def get_parsed_memory(memory):
     # kilobyte
     if memory[-1].upper() == 'K':       
